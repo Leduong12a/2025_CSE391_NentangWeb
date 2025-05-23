@@ -5,6 +5,7 @@ import { FaEarthAmericas } from "react-icons/fa6";
 import { HiMagnifyingGlass } from "react-icons/hi2";
 import logo from "../../images/logo.png";
 import { SlBasket } from "react-icons/sl";
+import { MdEmail } from "react-icons/md";
 import "./styleHeader.scss";
 
 function Header() {
@@ -26,13 +27,13 @@ function Header() {
                     <a href="#"> Kết nối </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="#" className="header__contact">
                       <RiFacebookCircleFill />
                     </a>
                   </li>
                   <li>
-                    <a href="#">
-                      <RiFacebookCircleFill />{" "}
+                    <a href="#" className = "header__contact">
+                      <MdEmail />
                     </a>
                   </li>
                 </ul>
@@ -40,7 +41,7 @@ function Header() {
               <div className="header__right">
                 <ul>
                   <li>
-                    <a href="#">
+                    <a href="#" >
                       <FaBell /> Thông báo
                     </a>
                   </li>
@@ -68,13 +69,10 @@ function Header() {
               <div className="col-9">
                 <div className="header__search">
                   <div className="header__input">
-                    <input type="text" placeHolder="uu dai doc quyen" />
+                    <input type="text" placeHolder="Ưu đãi đọc quyền" />
                     <button className="header__button">
                       <HiMagnifyingGlass />
                     </button>
-                  </div>
-                  <div className="row">
-                    <div className="col-12"></div>
                   </div>
                 </div>
               </div>

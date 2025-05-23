@@ -4,6 +4,7 @@ function Main(){
   return(
     <>
       <Outlet />
+      main o day 
     </>
   )
 }

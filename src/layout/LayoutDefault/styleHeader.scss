@@ -13,7 +13,7 @@ ul {
 }
 
 .header {
-  background-color: #ff3900;
+  background: linear-gradient(to right, #FF1700, #ff3900);
 
   &__title {
     display: flex;
@@ -115,6 +115,8 @@ ul {
       height: 100%;
       border: 0;
       padding-left: 10px;
+      padding-left : 30px ;
+      font-size : 20px ; 
     }
 
     button {
@@ -124,6 +126,11 @@ ul {
     }
   }
 
+  &__main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
   &__input {
     button {
@@ -139,7 +146,7 @@ ul {
       -o-border-radius: 5px;
     }
     svg {
-      font-size: 25px;
+      font-size: 18px;
     }
   }
 
@@ -151,6 +158,6 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight:  600;
   }
-
 }
