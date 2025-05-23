@@ -13,7 +13,7 @@ ul {
 }
 
 .header {
-  background-color: #ff3900;
+  background: linear-gradient(to bottom, #FF0000, #FF4500, #FFA500);
 
   &__title {
     display: flex;
@@ -127,7 +127,7 @@ ul {
 
   &__input {
     button {
-      background-color: #ff3900;
+      background: linear-gradient(to bottom, #FF0000, #FF4500, #FFA500);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -144,7 +144,7 @@ ul {
   }
 
   &__basket{
-    background-color: #ff3900;
+    background: none;
     border : 0 ; 
     font-size : 40px ; 
     color : #fff ;

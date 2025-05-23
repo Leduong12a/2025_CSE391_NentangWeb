@@ -6,7 +6,7 @@ import { HiMagnifyingGlass } from "react-icons/hi2";
 import logo from "../../images/logo.png";
 import { SlBasket } from "react-icons/sl";
 import "./styleHeader.scss";
-
+import { SiGmail } from "react-icons/si";
 function Header() {
   return (
     <>
@@ -32,7 +32,7 @@ function Header() {
                   </li>
                   <li>
                     <a href="#">
-                      <RiFacebookCircleFill />{" "}
+                     <SiGmail />
                     </a>
                   </li>
                 </ul>
@@ -68,7 +68,7 @@ function Header() {
               <div className="col-9">
                 <div className="header__search">
                   <div className="header__input">
-                    <input type="text" placeHolder="uu dai doc quyen" />
+                    <input type="text" placeHolder="Ưu đãi độc quyền" />
                     <button className="header__button">
                       <HiMagnifyingGlass />
                     </button>
