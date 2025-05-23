@@ -7,7 +7,7 @@ import logo from "../../images/logo.png";
 import { SlBasket } from "react-icons/sl";
 import { MdEmail } from "react-icons/md";
 import "./styleHeader.scss";
-
+import { SiGmail } from "react-icons/si";
 function Header() {
   return (
     <>
@@ -34,6 +34,11 @@ function Header() {
                   <li>
                     <a href="#" className = "header__contact">
                       <MdEmail />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                     <SiGmail />
                     </a>
                   </li>
                 </ul>
