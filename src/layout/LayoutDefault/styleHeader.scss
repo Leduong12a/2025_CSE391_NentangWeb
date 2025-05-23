@@ -1,0 +1,156 @@
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.header {
+  background-color: #ff3900;
+
+  &__title {
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      li {
+        margin-right: 10px;
+
+        a {
+          color: #fff;
+          text-decoration: none;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  &__right {
+    ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      li {
+        margin-right: 20px;
+
+        a {
+          color: #fff;
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 18px;
+
+          svg {
+            font-weight: 500;
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  &__main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  &__image {
+    width: 100%;
+    height: 100px;
+    margin-right: 20px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__search {
+    height: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  &__input {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    input {
+      width: calc(100% - 60px);
+      height: 100%;
+      border: 0;
+      padding-left: 10px;
+    }
+
+    button {
+      width: 60px;
+      height: calc(100% - 6px);
+      margin-right: 3px;
+    }
+  }
+
+
+  &__input {
+    button {
+      background-color: #ff3900;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+    }
+    svg {
+      font-size: 25px;
+    }
+  }
+
+  &__basket{
+    background-color: #ff3900;
+    border : 0 ; 
+    font-size : 40px ; 
+    color : #fff ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
