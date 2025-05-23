@@ -3,10 +3,9 @@ import { Outlet } from "react-router-dom";
 function Main(){
   return(
     <>
-      <Outlet />
-      main o day 
+      <Outlet /> 
     </>
   )
 }
 
-export default Main ; 
+export default Main ;   

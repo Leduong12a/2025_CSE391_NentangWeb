@@ -8,6 +8,8 @@ import { SlBasket } from "react-icons/sl";
 import { MdEmail } from "react-icons/md";
 import "./styleHeader.scss";
 import { SiGmail } from "react-icons/si";
+import { FaShopify } from "react-icons/fa";
+
 function Header() {
   return (
     <>
@@ -67,8 +69,11 @@ function Header() {
           <div className="row">
             <div className="header__main">
               <div className="col-2">
-                <div className="header__image">
-                  <img src={logo} alt="" />
+                <div className="header__logo">
+                  <a>
+                    <FaShopify />
+                  </a>
+                  <span >Shop</span>
                 </div>
               </div>
               <div className="col-9">
