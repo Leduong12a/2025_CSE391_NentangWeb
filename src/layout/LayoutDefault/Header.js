@@ -9,6 +9,7 @@ import { MdEmail } from "react-icons/md";
 import "./styleHeader.scss";
 import { SiGmail } from "react-icons/si";
 import { FaShopify } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 function Header() {
   return (
@@ -20,13 +21,22 @@ function Header() {
               <div className="header__left">
                 <ul>
                   <li>
-                    <a href="#"> Kênh Người Bán</a>
+                    {/* <a href="#"> Kênh Người Bán</a> */}
+                    <NavLink to = "/" >
+                      Home
+                    </NavLink>
                   </li>
                   <li>
-                    <a href="#"> | Tải ứng dụng |</a>
+                    {/* <a href="#"> | Tải ứng dụng |</a> */}
+                    <NavLink to = "/About">
+                        | About |
+                    </NavLink>
                   </li>
                   <li>
-                    <a href="#"> Kết nối </a>
+                    {/* <a href="#"> Kết nối </a> */}
+                    <NavLink to = "/contact">
+                        Contact
+                    </NavLink>
                   </li>
                   <li>
                     <a href="#" className="header__contact">
