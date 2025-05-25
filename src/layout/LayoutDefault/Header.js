@@ -3,7 +3,6 @@ import { FaBell } from "react-icons/fa";
 import { CiCircleQuestion } from "react-icons/ci";
 import { FaEarthAmericas } from "react-icons/fa6";
 import { HiMagnifyingGlass } from "react-icons/hi2";
-import logo from "../../images/logo.png";
 import { SlBasket } from "react-icons/sl";
 import { MdEmail } from "react-icons/md";
 import "./styleHeader.scss";
