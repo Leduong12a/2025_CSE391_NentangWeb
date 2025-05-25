@@ -7,6 +7,7 @@ import logo from "../../images/logo.png";
 import { SlBasket } from "react-icons/sl";
 import "./styleHeader.scss";
 import { SiGmail } from "react-icons/si";
+import { NavLink } from "react-router-dom";
 function Header() {
   return (
     <>
@@ -34,6 +35,15 @@ function Header() {
                     <a href="#">
                      <SiGmail />
                     </a>
+                  </li>
+                  <li>
+                    <NavLink to="/">Home</NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/about">About</NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/contact">Contact</NavLink>
                   </li>
                 </ul>
               </div>
