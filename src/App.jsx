@@ -12,10 +12,11 @@ function App() {
   return (
     <>
       < Routes>
+        {/* daaus / la trang chu */}
         <Route path = "/" element = { <LayoutDefault />} >
           <Route path ="/" element ={ <Home />} />
           <Route path = "/contact" element = { <Contact />} />
-          <Route path = "/About" element ={<About />} />
+          <Route path = "/about" element ={<About />} />
         </Route>
       </Routes>
       {/* <AllRoute /> */}
