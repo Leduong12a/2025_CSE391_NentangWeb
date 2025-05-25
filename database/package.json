@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "json-server -p 3000 --watch database.json"
+    "start": "json-server -p 3001 --watch database.json"
 
   },
   "author": "",
