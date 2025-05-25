@@ -3,7 +3,6 @@ import { FaBell } from "react-icons/fa";
 import { CiCircleQuestion } from "react-icons/ci";
 import { FaEarthAmericas } from "react-icons/fa6";
 import { HiMagnifyingGlass } from "react-icons/hi2";
-import logo from "../../images/logo.png";
 import { SlBasket } from "react-icons/sl";
 import { MdEmail } from "react-icons/md";
 import "./styleHeader.scss";
@@ -22,21 +21,15 @@ function Header() {
                 <ul>
                   <li>
                     {/* <a href="#"> Kênh Người Bán</a> */}
-                    <NavLink to = "/" >
-                      Home
-                    </NavLink>
+                    <NavLink to="/">Home</NavLink>
                   </li>
                   <li>
                     {/* <a href="#"> | Tải ứng dụng |</a> */}
-                    <NavLink to = "/About">
-                        | About |
-                    </NavLink>
+                    <NavLink to="/About">| About |</NavLink>
                   </li>
                   <li>
                     {/* <a href="#"> Kết nối </a> */}
-                    <NavLink to = "/contact">
-                        Contact
-                    </NavLink>
+                    <NavLink to="/contact">Contact</NavLink>
                   </li>
                   <li>
                     <a href="#" className="header__contact">
@@ -44,13 +37,13 @@ function Header() {
                     </a>
                   </li>
                   <li>
-                    <a href="#" className = "header__contact">
+                    <a href="#" className="header__contact">
                       <MdEmail />
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                     <SiGmail />
+                      <SiGmail />
                     </a>
                   </li>
                 </ul>
@@ -58,7 +51,7 @@ function Header() {
               <div className="header__right">
                 <ul>
                   <li>
-                    <a href="#" >
+                    <a href="#">
                       <FaBell /> Thông báo
                     </a>
                   </li>
@@ -83,7 +76,7 @@ function Header() {
                   <a>
                     <FaShopify />
                   </a>
-                  <span >Shop</span>
+                  <span>Shop</span>
                 </div>
               </div>
               <div className="col-9">
