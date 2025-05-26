@@ -35,21 +35,23 @@ button {
 .contact__form textarea {
   border: 1px solid black;
 
-  /* ng dùng ko di chuyển đc */
   resize: none;
 }
 .contact__form textarea:focus {
   outline: none;
 }
+
 .contact__form textarea::placeholder {
   color: black;
 }
+
 .contact__form button {
   border-radius: 0;
   color: black;
 
   transition: all 0.5s;
 }
+
 .contact__form button:hover {
   background-color: black;
   color: white;
@@ -58,6 +60,7 @@ button {
 .contact__map {
   margin: 30px 0;
 }
+
 .contact__map iframe {
   width: 100%;
 }
@@ -66,11 +69,13 @@ button {
   text-align: center;
   justify-content: space-around;
 }
+
 .contact__infor i {
   color: #4e2a84;
   font-size: 2rem;
   margin: 10px 0;
 }
+
 .contact__infor p {
   font-size: 0.8rem;
   margin: 10px 0;

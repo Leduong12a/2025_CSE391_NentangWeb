@@ -48,7 +48,6 @@ function Contact() {
         </div>
       </div>
     </section>
-  );
+  )
 }
-
-export default Contact;
+export default Contact

@@ -13,7 +13,11 @@ ul {
 }
 
 .header {
-  background: linear-gradient(to bottom, #FF0000, #FF4500, #FFA500);
+  background: linear-gradient(to bottom, #ff0000, #ff4500, #ffa500);
+
+  &__container {
+    padding: 0 100px;
+  }
 
   &__title {
     display: flex;
@@ -44,8 +48,8 @@ ul {
           align-items: center;
           justify-content: center;
 
-          svg{
-            font-size : 20px ; 
+          svg {
+            font-size: 20px;
             font-weight: 400;
           }
         }
@@ -80,7 +84,6 @@ ul {
       }
     }
   }
-
   &__main {
     display: flex;
     align-items: center;
@@ -94,16 +97,16 @@ ul {
     justify-content: space-between;
     cursor: pointer;
 
-    a{
-      svg{
-        color : #fff ;
-        font-size: 60px ; 
+    a {
+      svg {
+        color: #fff;
+        font-size: 60px;
       }
     }
 
-    span{
-      font-size : 60px ; 
-      color : #fff ;
+    span {
+      font-size: 60px;
+      color: #fff;
     }
   }
 
@@ -134,8 +137,8 @@ ul {
       height: 100%;
       border: 0;
       padding-left: 10px;
-      padding-left : 30px ;
-      font-size : 20px ; 
+      padding-left: 30px;
+      font-size: 20px;
     }
 
     button {
@@ -145,7 +148,7 @@ ul {
     }
   }
 
-  &__main{
+  &__main {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -153,7 +156,7 @@ ul {
 
   &__input {
     button {
-      background: linear-gradient(to bottom, #FF0000, #FF4500, #FFA500);
+      background: linear-gradient(to bottom, #ff0000, #ff4500, #ffa500);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -169,14 +172,14 @@ ul {
     }
   }
 
-  &__basket{
+  &__basket {
     background: none;
-    border : 0 ; 
-    font-size : 40px ; 
-    color : #fff ;
+    border: 0;
+    font-size: 40px;
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight:  600;
+    font-weight: 600;
   }
 }

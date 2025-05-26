@@ -1,0 +1,64 @@
+.about-wrapper {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+}
+
+.about-card {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.about-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #d0021b;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.brand-name {
+  color: #ff5722;
+}
+
+.about-subtitle {
+  font-size: 18px;
+  text-align: center;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.about-section {
+  margin-bottom: 25px;
+}
+
+.about-heading {
+  font-size: 20px;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.about-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.about-list li {
+  padding: 6px 0;
+  font-size: 15px;
+}
+
+.about-closing {
+  font-style: italic;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 30px;
+  color: #555;
+}
