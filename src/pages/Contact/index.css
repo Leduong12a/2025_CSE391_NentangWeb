@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contact__form{
+    margin: 20px 0;
+    
+}
+.contact__form form {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    width: 90%;
+    margin: 0 auto;
+    
+    gap: 10px 20px;
+}
+.contact__form form textarea , button{
+    grid-column: 1 / 3;
+    padding: 15px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.contact__form form input {
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+.contact__form form input:focus{
+    outline: none;
+    /* box-shadow: ; là thuộc tính mới tạo bóng phủ bên ngoài khối khồi hình gì tạo khối hình đó */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    /* text-shadow */
+    
+}
+.contact__form textarea{
+    border: 1px solid black;
+   
+    /* ng dùng ko di chuyển đc */
+    resize: none;
+}
+.contact__form textarea:focus{
+    outline: none;
+}
+.contact__form textarea::placeholder{
+    color: black;
+}
+.contact__form button{
+    border-radius: 0;
+    color:black;
+    background-color: #FF6280;
+    transition: all 0.5s;
+}
+.contact__form button:hover{
+    background-color: black;
+    color: white;
+    border-color: black;
+}
