@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import "./ProductDetail.css"; // import file CSS
+import GoBack from "../../GoBack";
 
 function ProductDetail() {
   const { id } = useParams();
@@ -26,6 +27,7 @@ function ProductDetail() {
   return (
     <div className="product-detail-container">
       <h1 className="product-title">{data.title}</h1>
+      <GoBack/>
       <img
         className="product-image"
         src={data.thumbnail}
