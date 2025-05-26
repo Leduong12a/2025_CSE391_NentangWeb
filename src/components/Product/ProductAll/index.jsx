@@ -15,15 +15,17 @@ function ProductAll() {
 
   return (
     <div className="product">
-      <div className="product__container">
-        {data.map((item) => (
-        <div className="product__item" key={item.id}>
-          <Link to={`/products/${item.id}`}>
-            <img src={item.thumbnail} alt={item.title} />
-            <h3>{item.title}</h3>
-          </Link>
+      <div className="container">
+        <div className="product__container">
+          {data.map((item) => (
+          <div className="product__item" key={item.id}>
+            <Link to={`/products/${item.id}`}>
+              <img src={item.thumbnail} alt={item.title} />
+              <h3>{item.title}</h3>
+            </Link>
+          </div>
+        ))}
         </div>
-      ))}
       </div>
     </div>
   );
