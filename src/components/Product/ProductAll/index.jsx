@@ -24,7 +24,7 @@ function ProductAll() {
               <h3>{item.title}</h3>
             </Link>
           </div>
-        ))}
+          ))}
         </div>
       </div>
     </div>

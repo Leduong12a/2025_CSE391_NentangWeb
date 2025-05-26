@@ -1,5 +1,6 @@
 .product {
-  padding:  0 50px;
+  background-color: #F5F5F5;
+  padding: 0 50px;
 }
 
 .product__container {
@@ -12,8 +13,7 @@
 
 .product__item {
   width: 200px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
+  border-radius: 5px;
   overflow: hidden;
   text-align: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -23,6 +23,11 @@
   -moz-transition: transform 0.2s ease;
   -ms-transition: transform 0.2s ease;
   -o-transition: transform 0.2s ease;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
 }
 
 .product__item:hover {
@@ -49,4 +54,8 @@
 .product__item a {
   text-decoration: none;
   color: inherit;
+}
+
+.product__discount {
+  background-color  : #F8DF50 ;
 }

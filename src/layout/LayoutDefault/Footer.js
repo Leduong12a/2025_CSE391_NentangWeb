@@ -8,7 +8,7 @@ function Footer() {
         <div className="container">
           <div className="footer__container">
             <div className="footer-section about">
-              <h3>Website bán hàng </h3>
+              <h3>Website Demo </h3>
               <p>
                 Chúng tôi mang đến cho bạn những sản phẩm chất lượng nhất với
                 dịch vụ tận tâm.
@@ -27,7 +27,7 @@ function Footer() {
         </div>
 
         <div className="footer-bottom">
-          &copy; Mua sắm dễ dàng, trải nghiệm tuyệt vời.
+          &copy; Trải nghiệm tuyệt vời.
         </div>
       </footer>
     </>
