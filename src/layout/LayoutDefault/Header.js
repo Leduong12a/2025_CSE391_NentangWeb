@@ -8,7 +8,7 @@ import { MdEmail } from "react-icons/md";
 import "./styleHeader.scss";
 import { SiGmail } from "react-icons/si";
 import { FaShopify } from "react-icons/fa";
-import { NavLink } from "react-router-dom";
+import { NavLink  , Link} from "react-router-dom";
 
 function Header() {
   return (
@@ -83,7 +83,7 @@ function Header() {
               <div className="col-9">
                 <div className="header__search">
                   <div className="header__input">
-                    <input type="text" placeHolder="Ưu đãi đọc quyền" />
+                    <input type="text" placeholder="Ưu đãi độc quyền" />
                     <button className="header__button">
                       <HiMagnifyingGlass />
                     </button>

@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import "./ProductDetail.css"; // import file CSS
@@ -18,7 +19,7 @@ function ProductDetail() {
       .catch(() => setData(null));
   }, []);
 
-  if (!data) return <p>Loading product details...</p>;
+  if (!data) return <p>Không có mạng nha bro...</p>;
 
   const discountedPrice = (
     data.price * (1 - data.discountPercentage / 100)
