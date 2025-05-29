@@ -1,64 +1,108 @@
-.about-wrapper {
-  background-color: #f9f9f9;
-  padding: 40px 20px;
-}
-
-.about-card {
-  max-width: 800px;
+.container{
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
-  background-color: #fff;
-  padding: 30px 40px;
-  border-radius: 16px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #333;
+}
+.About{
+  padding: 10px 0;
+   height: auto;
+}
+.container .aboutmain{
+  display: flex;
+  justify-content: space-between;
+}
+.aboutmain .item:nth-child(2){
+  flex: 1;
+  border-left: 2px solid #dcd4d4;
+  margin-left: 20px ;
+}
+.container .aboutmain .item li .active{
+  color: black;
 }
 
-.about-title {
-  font-size: 32px;
-  font-weight: 700;
-  color: #d0021b;
-  margin-bottom: 10px;
+  .staffmain{
+    display: flex;
+    flex-wrap: wrap;
+  }
+.productstaff img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.productstaff{
+  width: 30%;
+  margin: 10px 5px;
+  aspect-ratio: 4/3;
+  display: flex;
+  justify-content: center;  
+  gap:10px;
+  border: 2px solid #eedbdb;
+  border-radius: 20px;
+  padding: 5px;
+}
+.item1:nth-child(2){
+  align-self: center;
+}
+.chuyenphong{
+  font-size: 23px;
+  margin: 18px;
+}
+.sharkmain{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+} 
+
+
+ .detailmain{
+
+  display: flex;
+  flex-wrap: wrap;
+  
+  margin-top: 20px;
+}
+.detailtop{
+  width: 30%;
+  aspect-ratio: 4/3;
+  border: 2px solid #d5c3c3;
+  padding: 10px;
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 2px;
+ border-radius: 20px  ;
+ margin: 10px;
+}
+img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.staffmain .active{
+  color: black;
+}
+.sharkmain .sharkone{
+  width: 27%;
+  aspect-ratio: 4/3;
+  margin: 10px;
+  border: 1px solid #cac3c3;
+  border-radius: 20px;
+  padding: 10px;
+}
+.sharkmain img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.detailshark {
+  display: flex;
+  margin: 50px;
+}
+.detailshark .sharkimg{
   text-align: center;
+  margin-right: 30px;
 }
-
-.brand-name {
-  color: #ff5722;
-}
-
-.about-subtitle {
-  font-size: 18px;
-  text-align: center;
-  color: #666;
-  margin-bottom: 30px;
-}
-
-.about-section {
-  margin-bottom: 25px;
-}
-
-.about-heading {
-  font-size: 20px;
-  font-weight: 600;
-  color: #444;
-  margin-bottom: 10px;
-}
-
-.about-list {
-  list-style: none;
-  padding-left: 0;
-  margin-top: 10px;
-}
-
-.about-list li {
-  padding: 6px 0;
-  font-size: 15px;
-}
-
-.about-closing {
-  font-style: italic;
-  font-size: 16px;
-  text-align: center;
-  margin-top: 30px;
-  color: #555;
+.box{
+  display: flex;
+  justify-content: center;
 }
