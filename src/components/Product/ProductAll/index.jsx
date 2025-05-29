@@ -20,11 +20,19 @@ function ProductAll() {
           {data.map((item) => (
           <div className="product__item" key={item.id}>
             <Link to={`/products/${item.id}`}>
-              <img src={item.thumbnail} alt={item.title} />
-              <h3>{item.title}</h3>
+              <div className="product__main">
+                <span className = "product__discount" >
+                  -{item.discountPercentage}%
+                </span>
+                <img src={item.thumbnail} alt={item.title} />
+                <h3>{item.title}</h3>
+                <span className = "product__price">
+                  ${item.price}
+                </span>
+              </div>
             </Link>
           </div>
-        ))}
+          ))}
         </div>
       </div>
     </div>

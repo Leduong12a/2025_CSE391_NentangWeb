@@ -183,3 +183,8 @@ ul {
     font-weight: 600;
   }
 }
+li .active {
+  color:white;
+  font-weight: bold;
+  border-bottom: 2px solid white;
+}

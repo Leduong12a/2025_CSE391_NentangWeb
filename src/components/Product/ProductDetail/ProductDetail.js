@@ -1,6 +1,8 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import "./ProductDetail.css"; // import file CSS
+import GoBack from "../../GoBack";
 
 function ProductDetail() {
   const { id } = useParams();
@@ -17,7 +19,7 @@ function ProductDetail() {
       .catch(() => setData(null));
   }, []);
 
-  if (!data) return <p>Loading product details...</p>;
+  if (!data) return <p>Không có mạng nha bro...</p>;
 
   const discountedPrice = (
     data.price * (1 - data.discountPercentage / 100)
@@ -26,6 +28,7 @@ function ProductDetail() {
   return (
     <div className="product-detail-container">
       <h1 className="product-title">{data.title}</h1>
+      <GoBack/>
       <img
         className="product-image"
         src={data.thumbnail}
