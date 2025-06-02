@@ -5,6 +5,7 @@ function Detailstaff(){
     const params = useParams();
 
     const {id} = params;
+    
     const[getdetailstaff,setDetail] = useState([]);
     const[getname,setname] = useState();
       useEffect(() => {
@@ -23,7 +24,7 @@ function Detailstaff(){
         <div className="detailmain">
               {
             getdetailstaff.map((item) =>(
-             <div className="detailtop">
+             <div className="detailtop" key={item.id}>
                  
                     <h4>{item.name}</h4>
                     <div><img src={item.image} alt="đây là phone"/></div>

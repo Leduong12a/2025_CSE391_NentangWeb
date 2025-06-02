@@ -8,7 +8,7 @@ import { MdEmail } from "react-icons/md";
 import "./styleHeader.scss";
 import { SiGmail } from "react-icons/si";
 import { FaShopify } from "react-icons/fa";
-import { NavLink  , Link} from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Header() {
   return (
@@ -32,17 +32,17 @@ function Header() {
                     <NavLink to="/contact">Contact</NavLink>
                   </li>
                   <li>
-                    <a href="#" className="header__contact">
+                    <a href="/" className="header__contact">
                       <RiFacebookCircleFill />
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="header__contact">
+                    <a href="/" className="header__contact">
                       <MdEmail />
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <SiGmail />
                     </a>
                   </li>
@@ -51,17 +51,17 @@ function Header() {
               <div className="header__right">
                 <ul>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <FaBell /> Thông báo
                     </a>
                   </li>
-                  <li href="">
-                    <a href="#">
+                  <li>
+                    <a href="/">
                       <CiCircleQuestion /> Hỗ trợ
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <FaEarthAmericas /> Tiếng việt
                     </a>
                   </li>
@@ -74,7 +74,7 @@ function Header() {
             <div className="header__main">
               <div className="col-2">
                 <div className="header__logo">
-                  <a>
+                  <a href="/">
                     <FaShopify />
                   </a>
                   <span>Shop</span>

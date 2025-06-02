@@ -1,17 +1,11 @@
 import {  useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import GoBack from "../../components/GoBack";
-
+import Img from "../../images/Untitled.png";
 function Detailshark(){
       const params = useParams();
    const{id} = params;
-    const a =[ "https://img.teamobi.com/teamobi/tontonfriend/3.gif",
-      "https://img.teamobi.com/teamobi/tontonfriend/9.gif",
-      "https://img.teamobi.com/teamobi/tontonfriend/24.gif",
-      "https://img.teamobi.com/teamobi/tontonfriend/7.gif",
-      "https://img.teamobi.com/teamobi/tontonfriend/8.gif",
-      "https://img.teamobi.com/teamobi/tontonfriend/18.gif"
-    ]
+   
     const[getdata,setdata] = useState();
     useEffect(() =>{
         fetch(`https://dummyjson.com/users/${id}`)
@@ -36,7 +30,8 @@ function Detailshark(){
                     <div className="detailshark">
             <div className="sharkimg">
                               <div className="sharkimgtitle">
-                            <img src={a[lndex]} alt="đây laf ảnh"/>
+                            <img src={Img} alt="ảnh từ public" />
+
                             </div>
                             <h3>{getdata.lastName}</h3>         
             </div>

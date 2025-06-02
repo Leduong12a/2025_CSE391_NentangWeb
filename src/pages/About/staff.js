@@ -1,17 +1,19 @@
 import { Outlet ,NavLink} from "react-router-dom";
 import { arr } from "./stack"; 
-import Detailstaff from "./detailstaff";
+
 function Staff(){
   
     return (
       <>
+
       <div className="Staff">
     
           <div className="staffmain">
               {
                 arr.map((item) => (
                
-                      <NavLink  className  = "productstaff" key = {item.id} to={"/about/staff/" + item.id}>
+                      <NavLink  className  = "productstaff"  to={"/about/staff/" + item.id} key = {item.id}>
+                      
                       <div className="staffimg item1"> 
                              <img alt={item.name} src={item.image}/>
                         </div>
