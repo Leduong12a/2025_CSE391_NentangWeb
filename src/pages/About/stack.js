@@ -1,3 +1,4 @@
+import Img1 from "../../images/apple-macbook-air-m2-2022-xam-600x600.jpg"
 export const arr = [
   {
     id: 1,
@@ -53,7 +54,7 @@ export const arr = [
         name: "iPhone 15 Pro Max",
         type: "Smartphone",
         price: 1299,
-        image: "https://cdnv2.tgdd.vn/mwg-static/tgdd/Products/Images/44/326059/hp-victus-16-s0078ax-r5-8c5n7pa-638763555186271869-600x600.jpg"
+     image: Img1
       },
       {
         id: 202,
